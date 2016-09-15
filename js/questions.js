@@ -76,9 +76,83 @@ var questions = [
        correct: 3
 
      },
-   
-
-
+  {
+   type: 'geography',
+   question: 'What is the capital of Spain?',
+   answers: [
+     'Bologna',
+     'Barcelona',
+     'Lisbon',
+     'Madrid',
+   ],
+   correct: 3
+ },
+ {
+   type: 'geography',
+   question: "What is Earth's largest continent?",
+   answers: [
+     'Africa',
+     'Antarctica',
+     'Asia',
+     'Europe',
+   ],
+   correct: 1
+ },
+ {
+   type: 'geography',
+   question: 'What is the tallest mountain the world?',
+   answers: [
+     'Aconcagua',
+     'Mount Everest',
+     'Mount Kilamanjaro',
+     'Qogir',
+   ],
+   correct: 1
+ }
+ {
+   type: 'geography',
+   question: 'What is the smallest independent country on Earth?',
+   answers: [
+     'Grenada',
+     'Monaco',
+     'Nauru',
+     'Vatican City',
+   ],
+   correct: 3
+ }
+ {
+   type: 'geography',
+   question: 'Montevideo is the capital of what country?',
+   answers: [
+     'Peru',
+     'Slovenia',
+     'Uraguay',
+     'Zimbabwe',
+   ],
+   correct: 2
+ }
+ {
+   type: 'sports',
+   question: 'How many teams are in the NFL?',
+   answers: [
+     '24',
+     '32',
+     '36',
+     '40',
+   ],
+   correct: 1
+ }
+ {
+   type: 'sports',
+   question: 'How many Olympics',
+   answers: [
+     '24',
+     '32',
+     '36',
+     '40',
+   ],
+   correct: 1
+ }
 
 
 
