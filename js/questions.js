@@ -132,24 +132,57 @@ var questions = [
    correct: 2
  }
  {
-   type: 'sports',
-   question: 'How many teams are in the NFL?',
+   type: 'science',
+   question: 'What type of charge does a neutron carry?',
    answers: [
-     '24',
-     '32',
-     '36',
-     '40',
+     'Positive Charge',
+     'Negative Charge',
+     'Oscillating Charge',
+     'No Charge',
+   ],
+   correct: 3
+ }
+ {
+   type: 'science',
+   question: 'What English chemist and physicist discovered hydrogen?',
+   answers: [
+     'Henry Cavendash',
+     'Sir William Crookes',
+     'Dorothy Hodgkin',
+     'Bernard Shaw',
+   ],
+   correct: 0
+ }
+ {
+   type: 'science',
+   question: 'The temperature at which a gas becomes a liquid is its ____?',
+   answers: [
+     'Boiling Point',
+     'Condensation Point',
+     'Freezing Point',
+     'Melting Point',
    ],
    correct: 1
  }
  {
-   type: 'sports',
-   question: 'How many Olympics',
+   type: 'science',
+   question: 'What type of matter has a definite volume but no definite shape?',
    answers: [
-     '24',
-     '32',
-     '36',
-     '40',
+     'Gases',
+     'Liquids',
+     'Plasma',
+     'Solids',
+   ],
+   correct: 1
+ }
+ {
+   type: 'science',
+   question: 'Matter that does not enter chemical reactions is described as what?',
+   answers: [
+     'Grounded',
+     'Inert',
+     'Inhibited',
+     'Sterile',
    ],
    correct: 1
  }
