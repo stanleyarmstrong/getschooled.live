@@ -41,7 +41,7 @@ var questions = [
        '4',
        '5'
      ],
-     correct:2
+     correct:1
    },
    {
      type: 'math',
@@ -52,7 +52,7 @@ var questions = [
        'acceleration',
        'jerk'
      },
-     correct: 3
+     correct: 2
      {
        type:'math',
        question: 'What is the Pythagorean theorem?',
@@ -62,7 +62,7 @@ var questions = [
          "'b' squared plus 'c' squared equals 'a' squared",
          "'a' squared plus 'b' squared equals 'c' squared"
        ] ,
-       correct: 4
+       correct: 3
      },
      {
        type:'math',
@@ -73,7 +73,7 @@ var questions = [
          'Slope of Tangent Line',
          "Slope of 'x' squared"
        ],
-       correct: 3
+       correct: 2
 
      },
   {
@@ -185,8 +185,67 @@ var questions = [
      'Sterile',
    ],
    correct: 1
+ },
+ {
+   type: 'history',
+   question: 'What declared our independence from Great Britain?',
+   answers: [
+     "The Articles Of Confederation",
+     "The Emancipation Proclamation",
+     "The Declaration of Independence",
+     "The Constitution"
+   ],
+   correct:2
  }
+{
+  type: 'history',
+  question: "Who was our 16th President?",
+  answers:[
+    "Abraham Lincoln",
+    "George Washington",
+    "Barack Obama",
 
+    "James Buchanan"
+  ],
+  correct:0
+},
+{
+  type: 'history',
+  question:"What gave people rights in the Constitution?",
+  answers:[
+    "The Constitution",
+    "Declaration of Independence",
+    "Bill of Rights",
+    "17th Amendment"
+  ],
+  correct: 2
+
+
+},
+{
+type: 'history',
+question: "What did Marbury v Madison accomplish?" ,
+answers:[
+  "Supreme Court Case",
+  "Establish Judicial Review",
+  "Marbury won",
+  "Madison won"
+
+],
+correct: 1
+
+},
+{
+  type: "history",
+  question: "Who was our first President?"
+  answers:[
+    "George Washington",
+    "Andrew Jackson",
+    "Ronald Reagan",
+    "Barack Obama"
+  ],
+  correct:0
+}
 
 
 ]
