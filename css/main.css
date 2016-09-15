@@ -1,0 +1,63 @@
+body {
+  background: #2cb2bf;
+  color: #FFFFFF;
+}
+
+
+.btn-game {
+  background: transparent;
+  border: solid 2px #FFFFFF;
+}
+
+.btn-game:hover, .btn-game:focus {
+  color: #FFFFFF;
+}
+
+.game-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.game-board {
+  width: 50%;
+}
+
+#game-stats {
+  position: absolute;
+  top: 0;
+
+}
+
+#question-title {
+  margin-bottom: 5vh;
+}
+
+.answers-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.answers-list > li {
+  padding-left: 0;
+  margin-bottom: 2vh;
+}
+
+#start {
+  /*display: none;*/
+}
+
+#game {
+  display: none;
+}
+
+
+#results {
+  display: none;
+}
